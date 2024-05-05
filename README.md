@@ -64,9 +64,9 @@ The Snowflake data warehouse uses a relational data model with the following tab
 |---|---|---|
 | id | integer (primary key) | Unique identifier for each entry |
 | SONG_ID | varchar | Foreign key referencing the songs table |
-| WEEKLY_RANK | number(38,0) | Rank of the song within the specific timeframe |
-| POPULARITY | number(38,0) | Song popularity score |
-| SONG_ADDED | date | Date the song was added to the dataset |
+| WEEKLY_RANK | number | Rank of the song for that week |
+| POPULARITY | number | Song popularity score |
+| SONG_ADDED | date | date when the song was added to the weekly list |
 
 
 **Further Resources:**
