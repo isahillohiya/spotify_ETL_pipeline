@@ -23,7 +23,7 @@ The pipeline leverages AWS services to achieve the following:
 - The CloudWatch event triggers the Lambda function, initiating the data extraction and transformation process.
 - Snowpipe automatically loads the transformed data into Snowflake upon detection.
 
-**Data Model:**
+## **Data Model:**
 
 The Snowflake data warehouse uses a relational data model with the following tables:
 
@@ -68,12 +68,12 @@ The Snowflake data warehouse uses a relational data model with the following tab
 | POPULARITY | number | Song popularity score |
 | SONG_ADDED | date | date when the song was added to the weekly list |
 
+ </br > 
 
-**Further Resources:**
+## **Future Enhancement**
 
-- AWS CloudWatch Events: https://docs.aws.amazon.com/cloudwatch/
-- AWS Lambda: https://docs.aws.amazon.com/lambda/
-- AWS Glue: https://aws.amazon.com/glue/
-- Snowpipe: https://docs.snowflake.com/en/user-guide/data-load-snowpipe-intro
 
+ &#9744; Adding CI/CD   </br >  </br >
+ &#9744;  Creating presentation layer </br >  </br >
+ &#9744;   Visualizing data using BI tool like Looker or Power BI  </br >  </br >
 
